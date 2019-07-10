@@ -24,6 +24,12 @@ console.log(amHuman);
 let myName = "Yahya";
 let myFriendName = 'John';
 console.log(myName+' and my friend\'s name is '+myFriendName);
+
+//Any variable that value will remain same throughout the program can be declared using const.
+const nameOfHome = "Earth"
+
+console.log(nameOfHome);
+
 //-----------------------------------------------------------------------------------------------------------------------------------------------
 
 //undeclared variables has "undefiend value" and type 
@@ -102,6 +108,7 @@ console.log(integerToFive[0]);
 
 function sayMyName(name){
     console.log('Hello '+name);
+
 }
 
 sayMyName(myFriendName);
